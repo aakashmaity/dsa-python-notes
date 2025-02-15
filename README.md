@@ -1,6 +1,7 @@
 ## Python3 Notes
 
 - enumerate()
+
   ```
   a = ["Geeks", "for", "Geeks", "room", "table", "table"]
   # Iterating list using enumerate to get both index and element
