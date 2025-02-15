@@ -1,10 +1,10 @@
 ## Python3 Notes
 
-- enumerate()
+- enumerate() - iterate get both index and element
 
   ```
   a = ["Geeks", "for", "Geeks", "room", "table", "table"]
-  # Iterating list using enumerate to get both index and element
+
   for i, name in enumerate(a):
       print(f"Index {i}: {name}")
 
