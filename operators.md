@@ -8,7 +8,7 @@
   # 25 // 10 performs floor division, which results in 2 (it truncates the decimal part)
 ```
 
-- Check if all the characters in the text are alphanumeric
+- Check if all the characters in the text are alphanumeric : isalnum()
 ```
   txt = "Company12"
   x = txt.isalnum()
