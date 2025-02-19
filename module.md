@@ -24,11 +24,13 @@
         freq[char] += 1
       
     print(freq)
-    for word,count in freq.items():
-        print(word,count)
           
     Output:
       defaultdict(<class 'int'>, {'a': 2, 'b': 3, 'c': 1})
+
+    Traverse a dict
+      for word,count in freq.items():
+        print(word,count)
 ```
 
 - Counter
