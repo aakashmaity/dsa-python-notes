@@ -19,15 +19,14 @@
 
   Example - 2
   freq = defaultdict(int)
-  word = "ababc"
-
+  word = "abbcba"
   for char in word:
-      freq[word] += 1
-  
+      freq[char] += 1
+    
   print(freq)
         
   Output:
-    
+    defaultdict(<class 'int'>, {'a': 2, 'b': 3, 'c': 1})
 ```
 
 - Counter
